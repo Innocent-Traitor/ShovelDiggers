@@ -50,6 +50,7 @@
     {"name":"spr_key","order":16,"path":"sprites/spr_key/spr_key.yy",},
     {"name":"spr_dirt","order":3,"path":"sprites/spr_dirt/spr_dirt.yy",},
     {"name":"spr_crack","order":4,"path":"sprites/spr_crack/spr_crack.yy",},
+    {"name":"spr_shovel","order":19,"path":"sprites/spr_shovel/spr_shovel.yy",},
     {"name":"rm_level4","order":3,"path":"rooms/rm_level4/rm_level4.yy",},
     {"name":"obj_ladder","order":1,"path":"objects/obj_ladder/obj_ladder.yy",},
     {"name":"check_left","order":1,"path":"scripts/check_left/check_left.yy",},
