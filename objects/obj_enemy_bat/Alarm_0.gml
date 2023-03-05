@@ -7,6 +7,8 @@ if (mDir == true){
 		case obj_stone: mDir = false; break;
 		case obj_barrier: mDir = false; break;
 		case obj_lock: mDir = false; break;
+		case obj_dirt: mDir = false; break;
+		case obj_spike: mDir = false; break;
 		default: // Dirt, Bomb, Nothing
 			x += 18;
 		break;
@@ -20,6 +22,8 @@ else {
 		case obj_stone: mDir = true; break;
 		case obj_barrier: mDir = true; break;
 		case obj_lock: mDir = true; break;
+		case obj_dirt: mDir = true; break;
+		case obj_spike: mDir = true; break;
 		default: // Dirt, Bomb, Nothing
 			x -= 18;
 		break;

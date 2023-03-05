@@ -10,12 +10,12 @@ if (objBelow == obj_barrier) {
 }
 
 if (objRight == obj_barrier) {
-	var _inst = instance_nearest(x + 18, y, obj_barrier);
+	var _inst = instance_nearest(x + 18, y + 8, obj_barrier);
 	instance_destroy(_inst);
 }
 
 if (objLeft == obj_barrier) {
-	var _inst = instance_nearest(x, y - 18, obj_barrier);
+	var _inst = instance_nearest(x, y + 8, obj_barrier);
 	instance_destroy(_inst);
 }
 
@@ -25,5 +25,5 @@ if (distance_to_object(obj_player2) < 18) || (distance_to_object(obj_player1) < 
 	instance_destroy(obj_player2);
 }
 
-
+audio_play_sound(explosion, 50, false);
 instance_destroy(self);

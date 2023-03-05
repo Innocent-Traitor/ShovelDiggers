@@ -21,6 +21,8 @@ function check_below(x, y){
 		_object = obj_lock;
 	}else if position_meeting(x, y + 18, obj_crate){
 		_object = obj_crate;
+	}else if position_meeting(x, y + 18, obj_ladder){
+		_object = obj_ladder;
 	}
 	
 return _object;

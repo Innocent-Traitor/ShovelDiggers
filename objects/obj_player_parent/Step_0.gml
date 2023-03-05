@@ -1,5 +1,6 @@
 /// @description Movement
 
+
 if (keyboard_check_pressed(vk_right)){
 	var object = check_right(x, y);
 	switch (object){
@@ -43,6 +44,9 @@ if (keyboard_check_pressed(vk_right)){
 		case obj_water: instance_destroy(); break;
 		case obj_dirt: 
 			y += 18; 
+		break;
+		case obj_ladder:
+			y += 18;
 		break;
 	}
 } else if (keyboard_check_pressed(vk_up)) {

@@ -3,7 +3,8 @@
 //global.level = 0; // 0 is main menu
 randomise();
 
-//cam = view_get_camera(0);
+if keyboard_check_pressed(ord("M")) {
+	global.mute = !global.mute;
+}
 
-//camera_set_view_size(cam, 400, 300);
 
