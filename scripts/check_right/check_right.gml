@@ -14,6 +14,17 @@ function check_right(x, y){
 	else if position_meeting(x + 18, y, obj_stone){
 		_object = obj_stone;
 	}
+	else if position_meeting(x + 18, y, obj_barrier){
+		_object = obj_barrier;
+	}
+	else if position_meeting(x + 18, y, obj_lock){
+		_object = obj_lock;
+	}
+	else if position_meeting(x + 18, y, obj_crate){
+		_object = obj_crate;
+	}
+
+
 
 	
 	return _object;

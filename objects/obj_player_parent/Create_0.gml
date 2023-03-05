@@ -1,2 +1,4 @@
-/// @description Insert description here
+/// @description Init Vars
+
+hasBomb = false;
 
