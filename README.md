@@ -6,10 +6,17 @@ Made using GameMaker Studio 2, I had rougly 72 hours in order to make the game w
 
 #### Controls:
 Arrow Keys - Movement
+
 Space - Place Bomb
+
 M - Mute
 
+
 Credits: Created by Moonsoft Studios
+
 Developed by Innocent Traitor | James Moffett
+
 BGM: Keido Hona - Lo-Fi Chat via DOVA-SYNDROME
+
 Art Assets: Kenney (Mostly), Igor Gundarev (Clouds)
+
